@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/00b2e9f8b6.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="malogo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="#services">Services</a></li> -->
+                    <li><a href="#portfolio">My Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-regular fa-bars" onclick="openmenu()"></i>                        </nav>
+            <div class="header-text">
+                <p></p>
+                <h1>Hi, I'm <span>MUDIT </span> <br><span>AGGARWAL</span></h1>
+            </div>
+        </div>
+    </div>
+
+    <!--ABOUT-->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user2.jpeg">
+                </div>
+                <div class="about-col-1">
+                    <h1 class="sub-title">About Me</h1>
+                    <p></p>
+                    <p></p>
+                    <p>I’m Mudit Aggarwal, a Computer Science Engineering student at the Indian Institute of Information Technology, Una, with a CGPA of 8.57. I’ve interned at Meet University and Alphabet Technology, contributing to app development and API integration. My projects include a Sports Shoes Ecommerce App, a Food Donor and Receiver App, and a Flutter-based Money Management Project. I’m proficient in several languages and developer tools, and have solved over 750 Data Structures and Algorithm problems. I’ve also secured high ranks in coding contests and received a Certificate of Merit at the TATA Imagination Challenge 2023. I’m an active member of FORCE, the technical club of IIIT Una, and enjoy chess, badminton, and exploring new places.
+                        </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Android Development</span><br>Crafting Innovative Android Experiences</li>
+                            <li><span>Flutter Development</span><br>Crafting Cross-Platform Magic with Flutter</li>
+                            <li><span>Backend Development</span><br>Architecting Robust Backend Systems</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>Meet University</span><br>Contributed to Lead Management App development</li>
+                            <li><span>Alphabet Technology</span><br>Contributed to Photo360 App development</li>
+                            <li><span>Indraprastha Institute Of Information Sciences Delhi</span><br>Explored software development during industrial training</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Undergraduation</span><br>Pursuing Computer Science Engineering</li>
+                            <li><span>Senior Secondary</span><br>Arorvansh Public School (Percentage: 91.80%)</li>
+                            <li><span>Secondary</span><br>Arorvansh Public School (Percentage: 88.80%)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--    --services--    -->
+
+<!-- 
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Web Development services include everuthing related to building web-based solution - whether it is a simple text page or a complex web application. Work on making website intutive to use, optimized for moblie devices and search engines matching the latest trends.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-database"></i>                    <h2>Database Prediction</h2>
+                    <p>Predictive analytics is making predictions about future outcomes using historical data combined with statistical modeling, data mining techniques and machine learning to identify risks and opportunities.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>                    <h2>Graphics Designing</h2>
+                    <p>Graphic Designing is the process of defining requirements, visualizing and creating graphics including illustrations, logos, layouts and photos. Deals on Developing design based on clients requirements.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+ -->
+
+    <!--       Protfolio            -->
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="app icon.png">
+                    <div class="layer">
+                        <h3>FootFiesta</h3>
+                        <p>FootFiesta is an e-commerce platform that focuses on sports shoes and sneakers from renowned brands such as Nike and Adidas. The platform boasts a sleek modern user interface with captivating animations—think smooth transitions when adding products to your cart, bookmarking favorites, and adjusting sizes.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="App Logo.png">
+                    <div class="layer">
+                        <h3>FeedZie</h3>
+                        <p>This Android app aims to minimize food wastage by facilitating food donations to those in need. Developed using Java the app focuses on donating excess food to impoverished or needy individuals.
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="cashmate.png">
+                    <div class="layer">
+                        <h3>CashMate</h3>
+                        <p>CashMate is a comprehensive money management app that combines security, customization, and insightful features. Whether you’re tracking daily expenses or planning for the future, CashMate has you covered!
+                        </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- <a href="#" class="btn">see-more</a> -->
+        </div>
+    </div>
+
+
+    <!--          contact            -->
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>muditaggarwal12345@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>9509574124</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/MuditAggarwal1" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://twitter.com/MuditAggar95095" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/mudit_aggarwal111?igsh=dm45Y292emt2cjR0" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/mudit-aggarwal-60522b237/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="Mudit_Aggarwal_Resume.pdf" download class="btn btn2">Download My Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="copyright">
+            <p></p>
+        </div> -->
+    </div>
+    
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link")
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        
+        var sidemenu = document.getElementById("sidemenu");
+        
+        function openmenu()
+        {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu()
+
+        {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzurgvm0dO6_mA_Pi-a4nKfQDtyO0SmES9POEwgdjic5qkJ9cIAP8C09LUXktwpG7Tn/exec';
+    const form = document.forms['submit-to-google-sheet'];
+
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+        console.log('Form submitted'); // Add this line for debugging
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                console.log('Form submitted successfully');
+                // Optionally, you can reset the form after successful submission
+                form.reset();
+            })
+            .catch(error => console.error('Error submitting form:', error));
+    });
+</script>
+
+
+</body>
+
+</html>
